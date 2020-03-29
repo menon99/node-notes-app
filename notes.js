@@ -9,8 +9,8 @@ const titleColor = chalk.cyan.bold;
 const textColor = chalk.green.bold;
 const success = chalk.green.italic.inverse;
 const error = chalk.red.bold.inverse;
-const logging = chalk.yellow.inverse;
-const instruction = chalk.magenta.inverse;
+const logging = chalk.yellow;
+const instruction = chalk.magenta;
 
 async function readData() {
     let p1 = new Promise((resolve, reject) => {
